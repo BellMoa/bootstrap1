@@ -1,0 +1,134 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #ececec;
+    font-size: 14px;
+    color: #000000;
+    min-width: 320px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn-red{
+    background: #d51e08;
+    color: #ffffff;
+}
+
+/*=================================HEADER====================================================*/
+.menu-top .navbar{
+    margin-bottom: 0;
+    background: #fff;
+    padding: 20px 0;
+    text-transform: uppercase;
+
+}
+.menu-top .navbar-default .navbar-nav > li > a{
+    color: #000000;
+    padding: 5px 15px;
+    transition: background .3s;
+}
+.menu-top .navbar-default .navbar-nav > li > a:hover{
+    text-decoration: underline;
+}
+.menu-top .navbar-default .navbar-nav > li > a.btn-red{
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+.menu-top .navbar-default .navbar-nav > li > a.btn-red:hover{
+    background: #ec4835;
+    text-decoration: none;
+}
+.menu-top .navbar-default .navbar-nav > li > a .glyphicon{
+    margin-right: 10px;
+    font-size: 17px;
+}
+.menu-top .container,.menu-top .navbar-collapse{
+    padding-left: 0;
+}
+.menu-top .navbar-default .navbar-nav > li > a .flag{
+    margin-right: 5px;
+    position: relative;
+    top:-2px;
+}
+
+.menu-carusel .item{
+    min-height: 600px;
+}
+.menu-carusel .bg-slide{
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================LARGE DEVICE==================================================*/
+@media only screen and (max-width: 1200px){
+    .menu-top .navbar-nav{
+        float: none !important;
+    }
+}
+
+/*=============================MEDIUM DEVICE==================================================*/
+@media only screen and (max-width: 992px){
+
+}
+
+/*=============================SMALL DEVICE(TABLETS)==================================================*/
+
+@media only screen and (max-width: 768px) {
+
+    .menu-top .navbar-default .navbar-nav > li > a:hover {
+        background: #eee;
+    }
+
+    .menu-top .container, .menu-top .navbar-collapse {
+        padding-left: 15px;
+    }
+
+}
+/*=============================EXTRA SMALL DEVICE(PHONE)==================================================*/
+
+@media only screen and (max-width: 480px){}
+
