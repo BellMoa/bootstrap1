@@ -68,12 +68,24 @@ h3{
     left: 0;
     height: 100%;
     width: 100%;
-
 }
 
-
-
-
+.carousel.fade{
+    opacity: 1;
+}
+.carousel.fade .item{
+    opacity: 0;
+    transition: opacity .5s;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.carousel.fade .item.active{
+    opacity: 1;
+    position: relative;
+}
 
 
 
