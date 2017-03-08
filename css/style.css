@@ -81,38 +81,42 @@ h3{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 .carousel.fade .item.active{
     opacity: 1;
     position: relative;
+    z-index: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.menu-carusel .carousel-caption{
+    left: 0;
+    top:170px;
+}
+.menu-carusel .carousel-caption h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+.menu-carusel .carousel-caption h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.menu-carusel .carousel-caption .btn-red{
+    padding: 20px 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 24px;
+}
+.menu-carusel .carousel-caption .btn-red:hover{
+ text-decoration: none;
+    background: #ec4835;
+}
+.menu-carusel .container{
+    position: relative;
+}
+.menu-carusel .carousel-control{
+    z-index: 10;
+}
 
 
 /*=============================LARGE DEVICE==================================================*/
@@ -122,9 +126,36 @@ h3{
     }
 }
 
+@media only screen and (max-width: 1070px){
+    .menu-carusel .carousel-caption{
+        left: 20%;
+    }
+}
+
 /*=============================MEDIUM DEVICE==================================================*/
 @media only screen and (max-width: 992px){
-
+    .menu-carusel .carousel-caption{
+        left: 20%;
+    }
+    .menu-carusel .carousel-caption h1{
+        font-size: 40px;
+    }
+    .menu-carusel .carousel-caption h3{
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .menu-carusel .carousel-caption .btn-red{
+        padding: 20px 30px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .menu-carusel .carousel-caption .btn-red:hover{
+        text-decoration: none;
+    }
+    .menu-carusel .container{
+        position: relative;
+    }
 }
 
 /*=============================SMALL DEVICE(TABLETS)==================================================*/
@@ -139,8 +170,24 @@ h3{
         padding-left: 15px;
     }
 
+    .menu-carusel .carousel-caption h1{
+        font-size: 38px;
+    }
+    .menu-carusel .carousel-caption h3{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .menu-carusel .carousel-caption .btn-red{
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
 }
 /*=============================EXTRA SMALL DEVICE(PHONE)==================================================*/
 
-@media only screen and (max-width: 480px){}
+@media only screen and (max-width: 480px){
+    .menu-carusel .carousel-caption .btn-red{
+        padding: 15px 20px;
+        font-size: 14px;
+    }}
 
