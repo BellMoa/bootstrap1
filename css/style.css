@@ -123,6 +123,10 @@ position: absolute;
     width: 100%;
     bottom:0;
 }
+.carousel-indicators-wrap .carousel-indicators{
+    margin-left: 0;
+    position: relative;
+}
 
 
 /*=============================LARGE DEVICE==================================================*/
