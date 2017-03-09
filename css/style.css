@@ -128,8 +128,13 @@ position: absolute;
     margin-left: 0;
     position: relative;
     left: 0;
-    bottom:0;
+    bottom:-25px;
     display: inline-block;
+    background: #fff;
+    width: auto;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 5px 25px;
 }
 
 
