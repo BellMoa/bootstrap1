@@ -166,10 +166,41 @@ position: absolute;
     background: #000;
     border-radius: 3px;
 }
+.main-menu .navbar-inverse .navbar-nav > li > a{
+    color: #fff;
+    font-size: 16px;
+    transition:background .5s;
+}
+.main-menu .navbar-inverse .navbar-nav > li > a:hover{
+    text-decoration: underline;
+}
+.main-menu .navbar-brand img{
+    float: left;
+
+}
+.main-menu .navbar > .container .navbar-brand{
+    margin-left:30px;
+    padding: 0;
+}
+.main-menu .navbar-brand span{
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 /*=============================LARGE DEVICE==================================================*/
 @media only screen and (max-width: 1200px){
     .menu-top .navbar-nav{
         float: none !important;
+    }
+    .main-menu .navbar-nav{
+        float: none !important;
+    }
+    .main-menu .navbar-form{
+        margin-left: 125px;
     }
 }
 
@@ -203,6 +234,9 @@ position: absolute;
     .menu-carusel .container{
         position: relative;
     }
+    .main-menu .navbar-inverse .navbar-nav > li > a{
+        font-size: 14px;
+    }
 }
 
 /*=============================SMALL DEVICE(TABLETS)==================================================*/
@@ -228,6 +262,24 @@ position: absolute;
         padding: 15px 20px;
         font-size: 16px;
     }
+    .main-menu .container{
+        padding: 0;  }
+    .main-menu .navbar-inverse .navbar-nav > li > a:hover{
+        text-decoration: none;
+        background: #222;
+    }
+    .main-menu .navbar-form{
+        margin: 8px 0 ;
+        padding: 10px 0;
+    }
+    .main-menu .navbar-brand img{
+        max-height: 50px;
+    }
+    .main-menu .navbar-toggle.collapsed + .navbar-brand img{
+    max-height: none;
+        position: relative;
+        z-index: 30;
+    }
 
 }
 /*=============================EXTRA SMALL DEVICE(PHONE)==================================================*/
@@ -236,5 +288,10 @@ position: absolute;
     .menu-carusel .carousel-caption .btn-red{
         padding: 15px 20px;
         font-size: 14px;
-    }}
+    }
+    .main-menu .navbar-toggle.collapsed + .navbar-brand img{
+        max-height: 80px;
+
+    }
+}
 
