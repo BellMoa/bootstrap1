@@ -203,6 +203,8 @@ position: absolute;
 }
 
 /*=============================LARGE DEVICE==================================================*/
+
+
 @media only screen and (max-width: 1200px) {
     .menu-top .navbar-nav {
         float: none !important;
@@ -305,8 +307,8 @@ position: absolute;
     .search{
         display: none;
     }
-    .main-menu .navbar-form {
-    display: block;
+    .main-menu .navbar-form{
+        display: block!important;
         position: relative;
         right: 0;
         background: transparent;
