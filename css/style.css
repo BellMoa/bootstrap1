@@ -349,6 +349,10 @@ h3 {
     .main-menu .navbar-inverse .navbar-nav > li > a {
         font-size: 14px;
     }
+    .sidebar{
+        padding: 0 0 0 0;
+        border-right: none;
+    }
 }
 
 /*=============================SMALL DEVICE(TABLETS)==================================================*/
@@ -415,6 +419,12 @@ h3 {
 }
 
 /*=============================EXTRA SMALL DEVICE(PHONE)==================================================*/
+
+@media only screen and (max-width: 550px){
+    .sidebar .col-xs-6{
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .menu-carusel .carousel-caption .btn-red {
