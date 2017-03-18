@@ -21,6 +21,18 @@ h3 {
     background: #d51e08;
     color: #ffffff;
 }
+.mainslogan{
+    background: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 3px solid #dadada;
+    margin-bottom: 50px;
+}
+.mainslogan h1{
+    font-size:30px;
+    margin: 0 ;
+}
 
 /*=================================HEADER====================================================*/
 .menu-top .navbar {
