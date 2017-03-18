@@ -305,6 +305,12 @@ position: absolute;
     .search{
         display: none;
     }
+    .main-menu .navbar-form {
+    display: block;
+        position: relative;
+        right: 0;
+        background: transparent;
+    }
 
 }
 /*=============================EXTRA SMALL DEVICE(PHONE)==================================================*/
