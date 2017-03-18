@@ -62,7 +62,7 @@ h3{
     color: white;
     font-size: 22px;
     line-height: 50px;
-    right: 35px;
+    right: 25px;
     cursor: pointer;
     z-index: 30;
     display: none;
@@ -301,6 +301,9 @@ position: absolute;
     max-height: none;
         position: relative;
         z-index: 30;
+    }
+    .search{
+        display: none;
     }
 
 }
