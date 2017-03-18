@@ -1,63 +1,73 @@
 /*font-family: 'Open Sans', sans-serif;*/
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     background: #ececec;
     font-size: 14px;
     color: #000000;
     min-width: 320px;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.btn-red{
+
+.btn-red {
     background: #d51e08;
     color: #ffffff;
 }
 
 /*=================================HEADER====================================================*/
-.menu-top .navbar{
+.menu-top .navbar {
     margin-bottom: 0;
     background: #fff;
     padding: 20px 0;
     text-transform: uppercase;
 
 }
-.menu-top .navbar-default .navbar-nav > li > a{
+
+.menu-top .navbar-default .navbar-nav > li > a {
     color: #000000;
     padding: 5px 15px;
     transition: background .3s;
 }
-.menu-top .navbar-default .navbar-nav > li > a:hover{
+
+.menu-top .navbar-default .navbar-nav > li > a:hover {
     text-decoration: underline;
 }
-.menu-top .navbar-default .navbar-nav > li > a.btn-red{
+
+.menu-top .navbar-default .navbar-nav > li > a.btn-red {
     color: #fff;
     border-radius: 3px;
     padding: 5px 20px;
 }
-.menu-top .navbar-default .navbar-nav > li > a.btn-red:hover{
+
+.menu-top .navbar-default .navbar-nav > li > a.btn-red:hover {
     background: #ec4835;
     text-decoration: none;
 }
-.menu-top .navbar-default .navbar-nav > li > a .glyphicon{
+
+.menu-top .navbar-default .navbar-nav > li > a .glyphicon {
     margin-right: 10px;
     font-size: 17px;
 }
-.menu-top .container,.menu-top .navbar-collapse{
+
+.menu-top .container, .menu-top .navbar-collapse {
     padding-left: 0;
 }
-.menu-top .navbar-default .navbar-nav > li > a .flag{
+
+.menu-top .navbar-default .navbar-nav > li > a .flag {
     margin-right: 5px;
     position: relative;
-    top:-2px;
+    top: -2px;
 }
 
-.search{
+.search {
     position: absolute;
     color: white;
     font-size: 22px;
@@ -68,10 +78,11 @@ h3{
     display: none;
 }
 
-.menu-carusel .item{
+.menu-carusel .item {
     min-height: 600px;
 }
-.menu-carusel .bg-slide{
+
+.menu-carusel .bg-slide {
     background-size: cover;
     background-position: center center;
     position: absolute;
@@ -81,10 +92,11 @@ h3{
     width: 100%;
 }
 
-.carousel.fade{
+.carousel.fade {
     opacity: 1;
 }
-.carousel.fade .item{
+
+.carousel.fade .item {
     opacity: 0;
     transition: opacity .5s;
     display: block;
@@ -94,52 +106,61 @@ h3{
     width: 100%;
     z-index: 1;
 }
-.carousel.fade .item.active{
+
+.carousel.fade .item.active {
     opacity: 1;
     position: relative;
     z-index: 2;
 }
-.menu-carusel .carousel-caption{
+
+.menu-carusel .carousel-caption {
     left: 0;
-    top:170px;
+    top: 170px;
 }
-.menu-carusel .carousel-caption h1{
+
+.menu-carusel .carousel-caption h1 {
     font-weight: bold;
     font-size: 48px;
 }
-.menu-carusel .carousel-caption h3{
+
+.menu-carusel .carousel-caption h3 {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 40px;
 }
-.menu-carusel .carousel-caption .btn-red{
+
+.menu-carusel .carousel-caption .btn-red {
     padding: 20px 30px;
     border-radius: 3px;
     color: #fff;
     font-size: 24px;
 }
-.menu-carusel .carousel-caption .btn-red:hover{
- text-decoration: none;
+
+.menu-carusel .carousel-caption .btn-red:hover {
+    text-decoration: none;
     background: #ec4835;
 }
-.menu-carusel .container{
+
+.menu-carusel .container {
     position: relative;
 }
-.menu-carusel .carousel-control{
+
+.menu-carusel .carousel-control {
     z-index: 10;
 }
 
-.carousel-indicators-wrap{
-position: absolute;
+.carousel-indicators-wrap {
+    position: absolute;
     width: 100%;
-    bottom:0;
+    bottom: 0;
     text-align: center;
 }
-.carousel-indicators-wrap .carousel-indicators{
+
+.carousel-indicators-wrap .carousel-indicators {
     margin-left: 0;
     position: relative;
     left: 0;
-    bottom:-25px;
+    bottom: -25px;
     display: inline-block;
     background: #fff;
     width: auto;
@@ -148,52 +169,63 @@ position: absolute;
     padding: 5px 25px;
 }
 
-.carousel-indicators-wrap .carousel-indicators li{
+.carousel-indicators-wrap .carousel-indicators li {
     background: #d2d2d2;
     width: 10px;
     height: 10px;
     margin: 0 7px;
 }
-.carousel-indicators-wrap .carousel-indicators li.active{
+
+.carousel-indicators-wrap .carousel-indicators li.active {
     background: #a3a3a3;
 }
-.carousel-indicators-wrap .carousel-indicators li:first-child{
+
+.carousel-indicators-wrap .carousel-indicators li:first-child {
     margin-left: 0;
 }
-.carousel-indicators-wrap .carousel-indicators li:last-child{
-    margin-right:0;
+
+.carousel-indicators-wrap .carousel-indicators li:last-child {
+    margin-right: 0;
 }
-.main-menu{
+
+.main-menu {
     position: absolute;
     z-index: 21;
     width: 100%;
-    top:30px;
+    top: 30px;
 }
-.main-menu .navbar-inverse{
+
+.main-menu .navbar-inverse {
     background: transparent;
     border: none;
 }
-.main-menu .main-menu-bg{
+
+.main-menu .main-menu-bg {
     background: #000;
     border-radius: 3px;
 }
-.main-menu .navbar-inverse .navbar-nav > li > a{
+
+.main-menu .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-size: 16px;
-    transition:background .5s;
+    transition: background .5s;
 }
-.main-menu .navbar-inverse .navbar-nav > li > a:hover{
+
+.main-menu .navbar-inverse .navbar-nav > li > a:hover {
     text-decoration: underline;
 }
-.main-menu .navbar-brand img{
+
+.main-menu .navbar-brand img {
     float: left;
 
 }
-.main-menu .navbar > .container .navbar-brand{
-    margin-left:30px;
+
+.main-menu .navbar > .container .navbar-brand {
+    margin-left: 30px;
     padding: 0;
 }
-.main-menu .navbar-brand span{
+
+.main-menu .navbar-brand span {
     display: inline-block;
     padding: 15px;
     font-size: 20px;
@@ -203,7 +235,11 @@ position: absolute;
 }
 
 /*=============================LARGE DEVICE==================================================*/
-
+@media only screen and (min-width: 1200px) {
+    .main-menu .navbar-form {
+        display: block !important;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .menu-top .navbar-nav {
@@ -223,42 +259,49 @@ position: absolute;
         margin: 0;
         display: none;
     }
-    .search{
+
+    .search {
         display: block;
     }
 }
 
-@media only screen and (max-width: 1070px){
-    .menu-carusel .carousel-caption{
+@media only screen and (max-width: 1070px) {
+    .menu-carusel .carousel-caption {
         left: 20%;
     }
 }
 
 /*=============================MEDIUM DEVICE==================================================*/
-@media only screen and (max-width: 992px){
-    .menu-carusel .carousel-caption{
+@media only screen and (max-width: 992px) {
+    .menu-carusel .carousel-caption {
         left: 20%;
     }
-    .menu-carusel .carousel-caption h1{
+
+    .menu-carusel .carousel-caption h1 {
         font-size: 40px;
     }
-    .menu-carusel .carousel-caption h3{
+
+    .menu-carusel .carousel-caption h3 {
         font-size: 22px;
         margin-bottom: 40px;
     }
-    .menu-carusel .carousel-caption .btn-red{
+
+    .menu-carusel .carousel-caption .btn-red {
         padding: 20px 30px;
         border-radius: 3px;
         color: #fff;
         font-size: 24px;
     }
-    .menu-carusel .carousel-caption .btn-red:hover{
+
+    .menu-carusel .carousel-caption .btn-red:hover {
         text-decoration: none;
     }
-    .menu-carusel .container{
+
+    .menu-carusel .container {
         position: relative;
     }
-    .main-menu .navbar-inverse .navbar-nav > li > a{
+
+    .main-menu .navbar-inverse .navbar-nav > li > a {
         font-size: 14px;
     }
 }
@@ -275,54 +318,66 @@ position: absolute;
         padding-left: 15px;
     }
 
-    .menu-carusel .carousel-caption h1{
+    .menu-carusel .carousel-caption h1 {
         font-size: 38px;
     }
-    .menu-carusel .carousel-caption h3{
+
+    .menu-carusel .carousel-caption h3 {
         font-size: 20px;
         margin-bottom: 40px;
     }
-    .menu-carusel .carousel-caption .btn-red{
+
+    .menu-carusel .carousel-caption .btn-red {
         padding: 15px 20px;
         font-size: 16px;
     }
-    .main-menu .container{
-        padding: 0;  }
-    .main-menu .navbar-inverse .navbar-nav > li > a:hover{
+
+    .main-menu .container {
+        padding: 0;
+    }
+
+    .main-menu .navbar-inverse .navbar-nav > li > a:hover {
         text-decoration: none;
         background: #222;
     }
-    .main-menu .navbar-form{
-        margin: 8px 0 ;
+
+    .main-menu .navbar-form {
+        margin: 8px 0;
         padding: 10px 0;
     }
-    .main-menu .navbar-brand img{
+
+    .main-menu .navbar-brand img {
         max-height: 50px;
     }
-    .main-menu .navbar-toggle.collapsed + .navbar-brand img{
-    max-height: none;
+
+    .main-menu .navbar-toggle.collapsed + .navbar-brand img {
+        max-height: none;
         position: relative;
         z-index: 30;
     }
-    .search{
+
+    .search {
         display: none;
     }
-    .main-menu .navbar-form{
-        display: block!important;
+
+    .main-menu .navbar-form {
+        display: block !important;
         position: relative;
         right: 0;
         background: transparent;
     }
 
 }
+
 /*=============================EXTRA SMALL DEVICE(PHONE)==================================================*/
 
-@media only screen and (max-width: 480px){
-    .menu-carusel .carousel-caption .btn-red{
+@media only screen and (max-width: 480px) {
+    .menu-carusel .carousel-caption .btn-red {
         padding: 15px 20px;
         font-size: 14px;
     }
-    .main-menu .navbar-toggle.collapsed + .navbar-brand img{
+
+    .main-menu .navbar-toggle.collapsed + .navbar-brand img {
         max-height: 80px;
 
     }
