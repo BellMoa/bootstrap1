@@ -211,7 +211,12 @@ position: absolute;
         float: none !important;
     }
     .main-menu .navbar-form{
-        margin-left: 125px;
+        /*margin-left: 125px;*/
+        position: absolute;
+        right: 15px;
+        background: rgba(0,0,0,0.5);
+        padding: 15px;
+        margin: 0;
     }
 }
 
