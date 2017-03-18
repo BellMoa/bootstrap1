@@ -29,43 +29,7 @@ h3 {
     border-bottom: 3px solid #dadada;
  }
 
-/*==================================Content===================================================*/
-.mainslogan h1{
-    font-size:30px;
-    margin: 0 ;
-}
 
-.content{
-    padding: 50px 0 70px 0;
-}
-
-.sidebar{
-    padding: 50px 0 70px 0;
-    border-right: 3px solid #dadada;
-}
-.widget{
-    border-bottom: 3px solid #dadada;
-    padding-bottom:30px;
-    margin-bottom: 30px;
-
-}
-.widget h3,.content h3{
-margin: 0 0 30px 0;
-}
-.widget ul{
-    list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
-}
-.widget ul li a{
-    color: #000;
-    font-size: 16px;
-    line-height: 30px;
-    display: block;
-}
-.widget .more a{
-    color: #4892cf;
-}
 /*=================================HEADER====================================================*/
 .menu-top .navbar {
     margin-bottom: 0;
@@ -276,6 +240,43 @@ margin: 0 0 30px 0;
     text-transform: uppercase;
     font-weight: bold;
     color: #ffffff;
+}
+/*==================================Content===================================================*/
+.mainslogan h1{
+    font-size:30px;
+    margin: 0 ;
+}
+
+.content{
+    padding: 50px 0 70px 0;
+}
+
+.sidebar{
+    padding: 50px 0 70px 0;
+    border-right: 3px solid #dadada;
+}
+.widget{
+    border-bottom: 3px solid #dadada;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+
+}
+.widget h3,.content h3{
+    margin: 0 0 30px 0;
+}
+.widget ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.widget ul li a{
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    display: block;
+}
+.widget .more a{
+    color: #4892cf;
 }
 
 /*=============================LARGE DEVICE==================================================*/
