@@ -241,6 +241,12 @@ h3 {
     font-weight: bold;
     color: #ffffff;
 }
+
+.sidebar .carousel{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
 /*==================================Content===================================================*/
 .mainslogan h1{
     font-size:30px;
