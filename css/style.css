@@ -254,6 +254,17 @@ h3 {
 .sidebar .sidebar-carousel-caption  div{
     padding: 20px;
 }
+.sidebar .sidebar-carousel-caption h4{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size:14px;
+}
+.sidebar .sidebar-carousel-caption p {
+    margin-bottom: 0;
+    font-size:12px;
+    color: #5b5b5b;
+}
+
 /*==================================Content===================================================*/
 .mainslogan h1{
     font-size:30px;
