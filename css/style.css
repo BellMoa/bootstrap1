@@ -246,7 +246,14 @@ h3 {
     overflow: hidden;
     margin-bottom: 20px;
 }
+.sidebar .sidebar-carousel-caption{
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+}
 
+.sidebar .sidebar-carousel-caption  div{
+    padding: 20px;
+}
 /*==================================Content===================================================*/
 .mainslogan h1{
     font-size:30px;
