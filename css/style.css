@@ -451,6 +451,10 @@ h3 {
         padding: 0 0 0 0;
         border-right: none;
     }
+    .sidebar .carousel,
+    .sidebar .banner{
+        margin-right: 0;
+    }
 }
 
 /*=============================SMALL DEVICE(TABLETS)==================================================*/
