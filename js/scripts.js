@@ -15,5 +15,6 @@ $(window).load(function () {
         $(this).attr('width',carouselcaptionwidth);
     });
     $('#carousel-sidebar .sidebar-carousel-caption').css('max-width',carouselcaptionwidth + 'px');
+    $('#carousel-sidebar .carousel-indicators').css('max-width',carouselcaptionwidth + 'px');
 });
 //TODO сделать скрипт рабочим как только выучу jquerry
