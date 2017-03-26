@@ -311,10 +311,14 @@ h3 {
     text-transform: uppercase;
     border-radius: 3px;
     /*transition: all .5s;*/
-    color: #fff;
+    /*color: #fff;*/
     text-decoration: none;
 }
 .sidebar .banner a.btn-red:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar .banner a.btn-red:visited{
     color: #fff;
     text-decoration: none;
 }
