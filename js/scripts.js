@@ -16,3 +16,4 @@ $(window).load(function () {
     });
     $('#carousel-sidebar .sidebar-carousel-caption').css('max-width',carouselcaptionwidth + 'px');
 });
+//TODO сделать скрипт рабочим как только выучу jquerry
