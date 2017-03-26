@@ -10,8 +10,9 @@ $(function () {
    });
 
 $(window).load(function () {
-   var carouselcaptionwidth = $('carousel-sidebar.active img').width()
+   var carouselcaptionwidth = $('carousel-sidebar.active img').width();
     $('#carousel-sidebar img').each(function () {
         $(this).attr('width',carouselcaptionwidth);
-    })
+    });
+    $('#carousel-sidebar .sidebar-carousel-caption').css('max-width',carouselcaptionwidth + 'px');
 });
