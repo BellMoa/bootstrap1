@@ -280,8 +280,24 @@ h3 {
     height: 10px;
     margin: 0 3px;
 }
-sidebar .carousel-indicators li.active{
+.sidebar .carousel-indicators li.active{
     background: #5b5b5b;
+}
+.sidebar .banner{
+    background: #fff;
+    margin-bottom: 40px;
+    width: 223px;
+}
+.sidebar .banner h3,h2{
+    text-transform: uppercase;
+    margin: 0;
+}
+.sidebar .banner h3{
+    font-size:18px;
+}
+.sidebar .banner h2{
+    font-size:18px;
+    font-weight:bold;
 }
 /*==================================Content===================================================*/
 .mainslogan h1{
