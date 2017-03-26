@@ -270,7 +270,8 @@ h3 {
     position: relative;
     bottom: 0;
     left: 0;
-    width: auto;
+    width: 223px;
+    margin-left: 0;
 }
 
 /*==================================Content===================================================*/
